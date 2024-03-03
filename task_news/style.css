@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(211, 211, 204);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: rgb(84, 66, 16);
+    background: url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+    top no-repeat;
+    background-size: cover;
+
+}
+
+h1{color: rgb(99, 78, 70);
+font-size: 4em;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom:60px ;
+    text-align: center;
+}
+
+footer .links{
+margin-bottom: 50px;
+}
+
+footer .links>a{
+    color:rgb(106, 175, 175);
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright{
+    color: rgb(114, 98, 75);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.news{
+    background-color: #fff;
+    padding: 50px 0 32px;
+    display: flex;
+}
+
+article{
+    width: 700px;
+    margin: -15px;
+    padding: 6px 15px;
+    border-bottom: 2px solid red;
+}
+
+article a{
+    color:rgb(81, 63, 63) ;
+    text-decoration: none;
+}
+
+article a:hover{
+    color: rgb(110, 126, 84);
+}
+
+article h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta{
+    color: rgb(114, 98, 75);
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+
+.circle{
+    border-radius: 200px;
+    width: 400px;
+    height: 400px;
+    position:fixed;
+    right: 400px;
+    top: 350px;
+    background-color: rgba(169, 173, 178, 0.501);
+    text-align:center;
+
+
+}
+
+.ad{
+    font-family:'Courier New', Courier, monospace;
+}
+
+article:nth-child(2n+1){
+    background-color: rgba(169, 198, 208, 0.628);
+}
+
+.new::before{
+    content: " NEW ";
+    color: rgba(241, 12, 12, 0.559);
+    
+}
