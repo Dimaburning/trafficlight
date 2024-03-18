@@ -1,0 +1,20 @@
+#duplicateField{
+    color: hwb(200 28% 70%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+body{
+    background-color: rgba(73, 58, 58, 0.291);
+}
+
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    background-color: rgba(180, 187, 187, 0.8);
+    font: 400 13px system-ui;
+
+}
+
+
+

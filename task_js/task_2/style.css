@@ -1,0 +1,8 @@
+body{
+    color: rgba(182, 242, 97, 0.686);
+    background-color: rgba(0, 0, 0, 0.701);
+}
+
+p:nth-child(2n+1){
+    color: white;
+}
